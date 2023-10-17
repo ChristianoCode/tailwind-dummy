@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/css/main.css --watch"
+  },
+  "author": "Christiano Girsang",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
